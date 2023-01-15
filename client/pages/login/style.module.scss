@@ -1,0 +1,16 @@
+.mainContainer{
+  width: 100vw !important;
+  height: 100vh !important;
+  display: flex !important;
+  justify-content: center;
+  align-items: center;
+
+  & .subContainer{
+    background: white;
+    width: 40%;
+    height: 70%;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 5px 10px 20px #a1a1a1;
+  }
+}
