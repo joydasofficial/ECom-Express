@@ -74,7 +74,7 @@ const Products = () => {
               return <Card data={e} key={index} />;
             })}
         </div>
-        <div className={styles.item4}>ECom Express @Copyright 2023</div>
+        <div className={styles.item4}>ECom Express @Copyright || 2023</div>
       </div>
     </>
   );
